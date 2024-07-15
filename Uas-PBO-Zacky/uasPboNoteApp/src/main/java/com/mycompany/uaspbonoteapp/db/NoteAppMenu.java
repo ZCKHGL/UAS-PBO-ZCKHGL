@@ -42,6 +42,9 @@ public class NoteAppMenu {
 
     private void showMenu() {
         System.out.println("====================X======================");
+        System.out.println("Dibuat Oleh Zacky Haigel Putra Sandy Asmara");
+        System.out.println("Dengan NIM 23201248");
+        System.out.println("====================X======================");
         System.out.println("Menu:");
         System.out.println("====================X======================");
         System.out.println("1. Tambah Catatan");
@@ -50,7 +53,7 @@ public class NoteAppMenu {
         System.out.println("4. Keluar");
         System.out.println("====================X======================");
         System.out.print("Pilih opsi: ");
-        System.out.println("\n====================X======================");
+        
     }
 
     private int getUserChoice() {
