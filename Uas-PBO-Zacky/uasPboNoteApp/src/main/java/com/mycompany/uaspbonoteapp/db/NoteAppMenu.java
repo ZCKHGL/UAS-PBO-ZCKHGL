@@ -58,7 +58,7 @@ public class NoteAppMenu {
 
     private int getUserChoice() {
         while (!scanner.hasNextInt()) {
-            System.out.print("Harap masukkan angka yang valid: ");
+            System.out.print("Harap masukkan angka yang benar: ");
             scanner.next();
         }
         return scanner.nextInt();
